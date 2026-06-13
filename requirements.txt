@@ -1,0 +1,8 @@
+pyTelegramBotAPI
+requests
+playwright
+asyncio
+beautifulsoup4
+rarfile
+opencv-python
+numpy
