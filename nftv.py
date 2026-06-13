@@ -901,7 +901,7 @@ def cb_tv_login(call):
             f"📺 *TV Login — Enter Code*\n{'━'*28}\n\n"
             f"📊 Usage today: `{used+1}/{limit}`\n\n"
             f"📟 Send the *8-digit code* shown on your Netflix TV screen:\n\n"
-            f"_Example: `67892012`_",
+            f"_Example: `67894312`_",
             call.message.chat.id, call.message.message_id,
             parse_mode="Markdown",
         )
@@ -1208,7 +1208,7 @@ def cb_paid_premium(call):
         bot.edit_message_caption(
             f"📋 *PAYMENT VERIFICATION*\n{'━'*28}\n\n"
             f"Send your *12-digit UTR / Transaction ID*\n"
-            f"_(from your UPI app after payment)_\n\n"
+            f"_(from your UPI app after payment)_\n\n",
             call.message.chat.id, call.message.message_id,
             parse_mode="Markdown",
         )
@@ -1698,7 +1698,7 @@ def cmd_redeem(msg):
         f"📺 *TV Login — Enter Code*\n{'━'*28}\n\n"
         f"📊 Usage today: `{used+1}/{limit}`\n\n"
         f"📟 Send the *8-digit code* shown on your Netflix TV screen:\n\n"
-        f"_Example: `12345678`_",
+        f"_Example: `67894321`_",
         parse_mode="Markdown",
     )
 
